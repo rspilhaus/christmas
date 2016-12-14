@@ -1,0 +1,94 @@
+// -----------------------------------------------------------------------------
+//! EASY MEDIA QUERIES
+// -----------------------------------------------------------------------------
+
+	@mixin respond($breakpoint, $operator: "up", $dimension: 'width') {
+		
+		@if $operator == "up"
+		{
+			@media print, screen and ( min-#{ $dimension }: $breakpoint) { 
+				@content; 
+			}
+		} @else if $operator == "down" {
+			@if unit( $breakpoint ) == "px" {
+				$breakpoint: $breakpoint - 1;
+			}
+			@media screen and (max-#{ $dimension }: $breakpoint) { 
+				@content; 
+			}
+		} @else  {
+			@if unit( $operator ) == "px" {
+				$operator: $operator - 1;
+			}
+			@media screen and (min-#{ $dimension }: $breakpoint) and (max-#{ $dimension }: $operator) {
+				@content; 
+			}
+		}
+		
+	}
+
+
+// -----------------------------------------------------------------------------
+//! RESETS
+// -----------------------------------------------------------------------------
+	
+	@mixin unlist { 
+		margin: 0; 
+		padding: 0; 
+		list-style: none; 
+		
+		li {
+			list-style: inherit;
+		}
+		
+		ul, ol {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	
+	@mixin list-reset( $with-children: false ) {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+		li {
+			list-style: inherit;
+		}
+		
+		@if( $with-children ) {
+			ul,
+			ol {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	
+	
+	@mixin clearfix {
+		&:before, &:after { content: " "; display: table; }
+		&:after { clear: both; }
+	}
+	
+
+// -----------------------------------------------------------------------------
+//! PLACEHOLDER COLORS
+// -----------------------------------------------------------------------------
+
+	@mixin input-placeholder() {
+		&.placeholder { 
+			@content;
+		}
+		&:-moz-placeholder { 
+			@content;
+		}
+		&::-moz-placeholder { 
+			@content;
+		}
+		&::-webkit-input-placeholder { 
+			@content;
+		} 
+	}
+	
+	
