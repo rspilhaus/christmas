@@ -4,10 +4,27 @@
 
 html {
 	height: 100%;
-	background:#fff;
+	background:$color-background;
+	
 }
 
 body {
 	position: relative;
 	min-height: 100%;
+	border: 16px $color-background solid;
+	@include respond($breakpoint-borders) {
+		border: 24px $color-background solid;		
+	}
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin:0 auto;
+	width:100%;
+}
+
+.container {
+	max-width:35em;
+	width:100%;
+	margin:0 auto;
 }

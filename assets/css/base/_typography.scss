@@ -39,6 +39,8 @@
 		}
 	}
 	
+
+	
 // -----------------------------------------------------------------------------
 //! COPY
 // -----------------------------------------------------------------------------
@@ -51,11 +53,15 @@
 		&:first-child {
 			margin-top: 0;
 		}
+		@include respond($breakpoint-paragraphs) {
+			font-size: 1.25em;
+			margin: 2em 0; 
+		}
 	}
 
 
 	a {
-		color: $color-blue;
+		color: $color-red;
 		text-decoration: none;
 		transition: all 0.2s ease;
 		&:hover { 

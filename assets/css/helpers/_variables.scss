@@ -2,16 +2,21 @@
 //! Fonts
 // -----------------------------------------------------------------------------
 
-$font-headings: 'Lato', Helvetica, Arial, Sans-serif;
-$font-body: 'Droid Serif', Georgia, Serif;
+$font-headings: 'futura-pt', Helvetica, Arial, Sans-serif;
+$font-body: 'bookmania', Georgia, Serif;
+$font-display: 'adelle', Georgia, Serif;
 
 
 // -----------------------------------------------------------------------------
 //! Colors
 // -----------------------------------------------------------------------------
 
-$color-blue: 	#00b0e5;
 $color-body: 	#666666;
+
+$color-background:	#F8F0E1;
+$color-night:		#2f373a;
+$color-snow:		#f8f8f8;
+$color-red:			#BF352F;
 
 // -----------------------------------------------------------------------------
 //! Z-indexes
@@ -29,3 +34,16 @@ $z_index-level0: -1;
 //! Breakpoints 
 // -----------------------------------------------------------------------------
 
+$breakpoint-borders:	480px;
+$breakpoint-paragraphs:	480px;
+
+$breakpoint-hero-xl: 	1132px;
+$breakpoint-hero-lg: 	992px;
+$breakpoint-hero-stack:	890px;
+$breakpoint-hero-md:	650px;
+$breakpoint-hero-sm:	500px;
+
+$breakpoint-stat-padding-lg:	1260px;
+$breakpoint-stat-padding-md:	1024px;
+$breakpoint-stat-padding-sm:	768px;
+$breakpoint-stat-stack:			680px;

@@ -1,0 +1,95 @@
+// -----------------------------------------------------------------------------
+//! Hero Styles
+// -----------------------------------------------------------------------------
+
+#hero {
+	overflow: hidden;
+	width:100%;
+	background-color: $color-night;
+	position: relative;
+	padding:32px 32px 318px 32px;
+	@include respond($breakpoint-hero-md) {
+		padding:64px 32px 318px 32px;		
+	}
+	@include respond($breakpoint-hero-stack) {
+		padding:0;
+		height: 600px;
+	}
+}
+
+.snow {
+	position: absolute;
+	width:100%;
+	height:128px;
+	bottom:0;
+	left:0;
+	background-image: url(../svg/snow.svg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.snowman {
+	position: absolute;
+	width:260px;
+	height:288px;
+	bottom:32px;
+	left:50%;
+	margin-left:-130px;
+	transition: all 0.2s ease;
+	@include respond($breakpoint-hero-stack) {
+		left:64px;		
+		margin:0;
+		width:312px;
+		height:345px;
+	}
+}
+
+
+.hero-text {
+	position: relative;
+	@include respond($breakpoint-hero-stack) {
+		float:right;
+		margin:165px 32px 0 0;	
+	}
+	@include respond($breakpoint-hero-lg) {
+		margin:163px 48px 0 0;
+	}
+	@include respond($breakpoint-hero-xl) {
+		margin:144px 64px 0 0;
+	}
+}
+
+.hero-text .hero-text-title {
+	font-family: $font-display;
+	color:#fff;
+	font-size:2.5em;
+	text-align: center;
+	@include respond($breakpoint-hero-sm) {
+		font-size:3em;
+	}
+	@include respond($breakpoint-hero-md) {
+		font-size:3.75em;
+	}
+	@include respond($breakpoint-hero-lg) {
+		font-size: 4.5em;
+	}
+	@include respond($breakpoint-hero-xl) {
+		font-size:5.5em;
+	}
+}
+	
+.hero-text .hero-text-title .hero-text-from {
+	font-family: $font-headings;
+	font-size: 0.454545454545em;
+	display: block;
+	margin:25px 0 0 0;
+	
+	@include respond($breakpoint-hero-lg) {
+		margin:26px 0 0 0;
+	}
+	@include respond($breakpoint-hero-xl) {
+		margin:29px 0 0 0;
+	}
+}
+

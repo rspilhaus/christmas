@@ -1,0 +1,102 @@
+// -----------------------------------------------------------------
+//! Stats
+// -----------------------------------------------------------------
+
+#stats {
+	padding:24px 16px 24px 16px;
+	background:$color-snow;
+	@include respond($breakpoint-stat-padding-sm) {
+		padding:24px 48px 24px 48px;		
+	}	
+	@include respond($breakpoint-stat-padding-md) {
+		padding:24px 80px 24px 80px;		
+	}	
+	@include respond($breakpoint-stat-padding-lg) {
+		padding:24px 128px 24px 128px;		
+	}
+}
+
+.stats-title {
+	color: $color-night;
+	text-align: center;
+	margin:0 0 43px 0;
+	font-family: $font-display;
+	font-size:2em;
+	@include respond($breakpoint-stat-stack) {
+		font-size:2.5em;
+	}
+	@include respond($breakpoint-stat-padding-md) {
+		font-size:3em;
+	}
+}
+
+.stat {
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	flex-wrap: nowrap;
+	margin:0 0 24px 0;
+	@include respond($breakpoint-stat-stack) {
+		flex-direction: row;
+		margin:0 0 48px 0;		
+	}
+}
+
+.stat-box {
+	background: $color-night;
+	width: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: $font-display;
+	line-height: 112px;
+	color:#fff;
+	text-align: center;	
+	font-size:4em;
+	@include respond($breakpoint-stat-stack) {
+		width:240px;
+		min-height: 160px;
+		line-height: 1;				
+		flex-shrink: 0;	
+		font-size:4.5em;	
+	}
+}
+
+.stat-text {
+	display: flex;
+	align-items: center;
+	border:8px solid $color-night;
+	border-top: none;
+	padding:16px;
+	width:100%;
+	text-align: center;
+	@include respond($breakpoint-stat-stack) {
+		border-left: none;
+		border-top:8px solid $color-night;
+		padding:16px 48px;
+		text-align: left;
+	}
+}
+
+.stat-text-holder {
+	
+}
+
+.stat-text-title {
+	margin:0;
+	font-size:1.5em;
+	color: $color-red;
+	
+	@include respond($breakpoint-stat-stack) {
+		font-size:2em;	
+	}
+}
+
+.stat-text-subtitle {
+	margin:12px 0 0 0;
+	font-size: 1em;
+	@include respond($breakpoint-stat-stack) {
+		font-size: 1.125em;	
+	}
+}

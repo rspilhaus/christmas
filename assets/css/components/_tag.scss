@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------
+//! Tag
+// -----------------------------------------------------------------
+
+#tag {
+	text-align: center;
+	background: $color-snow;
+	padding:0 24px 32px 24px;
+}
+
+.tag-title {
+	color: $color-night;
+	text-align: center;
+	margin:0 0 43px 0;
+	font-family: $font-display;
+	font-size:2em;
+	@include respond($breakpoint-stat-stack) {
+		font-size:2.5em;
+	}
+	@include respond($breakpoint-stat-padding-md) {
+		font-size:3em;
+	}
+}

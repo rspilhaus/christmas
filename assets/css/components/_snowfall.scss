@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------
+//! Snowfall
+// -----------------------------------------------------------------
+
+.snowflake {
+	position: absolute;
+	background:$color-snow;
+	border-radius: 50%;
+}
+
+.snowflake-sm {
+	width:4px;
+	height:4px;
+}
+
+.snowflake-md {
+	width:6px;
+	height:6px;
+}
+
+.snowflake-lg {
+	width:8px;
+	height:8px;
+}
+
+
+
+// -----------------------------------------------------------------
+//! Positioning
+// -----------------------------------------------------------------
+
+.snowflake {
+	
+/*
+	&:nth-child(1) {left:15%;}	
+	&:nth-child(2) {left:10%;}
+	&:nth-child(3) {left:20%;}
+	&:nth-child(4) {left:33%;}	
+	&:nth-child(5) {left:44%;}
+	&:nth-child(6) {left:50%;}
+	&:nth-child(7) {left:66%;}	
+	&:nth-child(8) {left:73%;}
+	&:nth-child(9) {left:87%;}
+	&:nth-child(10) {left:96%;}	
+	&:nth-child(11) {left:39%;}
+	&:nth-child(12) {left:25%;}
+	&:nth-child(13) {left:58%;}	
+	&:nth-child(14) {left:67%;}
+	&:nth-child(15) {left:82%;}	
+	&:nth-child(16) {left:48%;}	
+	&:nth-child(17) {left:57%;}
+	&:nth-child(18) {left:72%;}	
+*/				
+	
+}
