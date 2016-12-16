@@ -52,7 +52,7 @@
 
 <p>Early in the year we packed up our belongings and moved to Kansas City. Settling just outside the Westport neighborhood in Midtown KC, we quickly set about learning our new surroundings and eating as much BBQ as we could get our hands on. We love exploring all the city has to offer - from the almost monthly craft fairs to the always exciting First Fridays we’ve kept busy. We’ve even made it to the zoo three of four times.</p>
 
-<p>Of course, it hasn&rsquo;t all been burnt ends and brisket for us - we do have to work. Bethany is working at an arena just west of the city, and Ryan is building websites for an advertising agency just south of the city. </p>
+<p>Of course, it hasn&rsquo;t all been burnt ends and brisket for us - we do have to work. Bethany is working at an arena just east of the city, and Ryan is building websites for an advertising agency just south of the city. </p>
 
 <p>In July we took a trip out west to visit three National Parks (Grand Canyon, Bryce Canyon and Zion National Parks). This was an amazing trip and was definitely a highlight of the year for us. Maybe some day we&rsquo;ll finally post those pictures on Facebook...</p>
 
