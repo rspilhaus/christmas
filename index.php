@@ -159,7 +159,7 @@
 			<div class="stat-box">103</div><!--end .stat-box-->
 			<div class="stat-text">
 				<div class="stat-text-holder">
-					<h3 class="stat-text-title">Podcast Episodes Streamsed</h3>
+					<h3 class="stat-text-title">Podcast Episodes Streamed</h3>
 					<p class="stat-text-subtitle">The best way to pass a long&nbsp;commute.</p>
 				</div><!--end .stat-text-holder-->
 			</div><!--end .stat-text-->
