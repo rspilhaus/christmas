@@ -161,8 +161,8 @@
 			<div class="stat-box">142</div><!--end .stat-box-->
 			<div class="stat-text">
 				<div class="stat-text-holder">
-					<h3 class="stat-text-title">Hours of Overwatch Ryan Played</h3>
-					<p class="stat-text-subtitle">His <a href="https://www.reddit.com/user/RSpil/submitted/" target="_blank">dumb gifs</a> have over 20,000 upvotes on&nbsp;Reddit.</p>
+					<h3 class="stat-text-title">Hours Ryan Spent Playing Overwatch</h3>
+					<p class="stat-text-subtitle">His <a href="https://www.reddit.com/user/RSpil/submitted/?sort=top" target="_blank">dumb gifs</a> have over 20,000 upvotes on&nbsp;Reddit.</p>
 				</div><!--end .stat-text-holder-->
 			</div><!--end .stat-text-->
 		</div><!--end .stat-->
